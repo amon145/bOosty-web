@@ -1,0 +1,177 @@
+* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+		}
+		
+		body {
+				font-size: 16px;
+				background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), #000), url(img/new-york-city-street-15102.png);
+				background-size: cover;
+
+				background-repeat: no-repeat;
+				height: 100vh;
+			}
+		
+		header h1 {
+				font-size: 3em;
+				font-family: sans-serif;
+				text-align: center;
+				color: white;
+				padding: 23px;
+			}
+			/******** Navgation and stuff ******/
+		.left {
+				float: left;
+			}
+			
+		.right {
+				float: right;
+			}
+		
+		#nav-divone {
+			width: auto;
+			list-style: none;
+			padding: 15px;
+			border-radius: 10%;
+			
+			}
+			
+			#nav-divone li {
+				letter-spacing: 1px;
+			font-size: 2em;
+				list-style: none;
+				font-size: 20px;
+				margin-bottom: 20px;
+				padding-left: 20px;	
+			}
+			
+			#nav-divone a {
+					text-decoration: none;
+					color: white;
+				}
+				
+			#nav-divone a:link,
+			#nav-divone a:active {
+					color: #fff;
+				
+				
+			}
+			
+			#nav-divone a:hover,
+			#nav-divone a:active {
+					text-decoration: underline;
+					color: #67809F;
+				
+				}
+				
+			#nav-divtwo ul{
+				list-style: none;
+				
+				
+				}
+			#nav-divtwo li {
+					padding: 20px;
+					display: inline-block;
+			
+			}
+			
+	
+			#nav-divtwo a:link,
+			#nav-divtwo a:active {
+					text-decoration: none;
+					color: #fff;
+				
+				
+			}
+			
+			#nav-divtwo a:hover,
+			#nav-divtwo a:active {
+					color: #67809F;
+				
+			}
+			
+			#nav-divtwo #box{
+					border: none;
+					height: 50px;
+					background-image: url('img/search.png');
+					background-repeat: no-repeat;
+					background-position: center right;
+				
+				}
+				
+			#nav-divtwo #btn {
+				margin: 0;
+				background-color: brown;
+				color: white;
+				padding: 10px;
+				height: auto;
+				border-radius: 25px;
+				
+				}
+				
+			.head_1 {
+				color: white;
+				line-height: 25px;
+				padding-bottom:20px;
+				marign: auto;
+				display: inline-block;
+				width: 43%;
+				
+				}	
+				
+				.head_1 h2 {
+						font-size: 3em;
+						margin-top:20px;
+						
+						text-align: right;
+					}
+					
+				.head_1 h3 {
+						position: relative;
+						top: 200px;
+
+				}
+				
+			.nav_3 {
+					position: relative;
+					top: 150px;
+				
+				}
+				
+			.nav_3 ul {
+					list-style: none;
+					margin-top:10px;
+					z-index: 2;
+				}
+					
+			.nav_3 img{
+				list-style: none;
+				width:300px;
+				height: 300px;	
+				float: left;
+				margin: 13px;
+				border: 5px solid red;
+				border-radius: 10px;
+			}	
+				
+			#nav_4 {
+					margin-bottom: 25px;
+					color: white;
+				
+				}	
+				
+				
+		
+		#tab_one {
+			background-color: tomato;
+			margin: auto;
+			padding: 20px;
+			}
+			
+		.tab_imgs {
+				width: auto;
+				height: 50px;
+				
+			
+		}

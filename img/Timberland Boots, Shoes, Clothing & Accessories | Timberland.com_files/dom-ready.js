@@ -1,0 +1,2 @@
+define(["jquery","wcs.selector-cache","wcs.global-events"],function(a,b,c){return function(d,e){a(function(){b.init(),a.isFunction(d)&&(e=d,d="body"),a(d).on(c.DOM_READY,function(a){e.call(a.target,a.target)}).each(function(){e.call(this,this)})})}});
+//# sourceMappingURL=dom-ready.js.map
